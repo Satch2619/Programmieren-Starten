@@ -19,14 +19,39 @@ a {
   text-decoration: none;
 }
 
-/*NOTE - Hilfsklasse*/
+p {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 
-.standar-container{
+/*SECTION Hilfsklasse */
+
+.standar-container {
   max-width: 1080px;
   margin: 0 auto;
 }
 
-/*ANCHOR - Navigationsleiste*/
+.text-highlighted {
+  color: coral;
+}
+
+.btn {
+  display: block;
+  font-size: 20px;
+  background-color: #3a3a3a;
+  color: coral;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+.btn:hover {
+  background-color: coral;
+  color: white;
+}
+
+/*SECTION Navigationsleiste */
 
 #main-nav {
   background-color: #3a3a3a;
@@ -68,4 +93,42 @@ a {
 #main-nav ul li a:hover {
   background-color: coral;
   color: white;
+}
+
+/*SECTION Willkommen Sektion */
+
+#welcome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/Portfoliowebsite/img/Banner_Light.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#welcomed::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#welcome .welcome-content {
+  float: right;
+  width: 70%;
+  color: white;
+  padding: 130px 50px;
+}
+
+#welcome .welcome-img {
+  float: left;
+  width: 30%;
+  padding-top: 40px;
+}
+
+#welcome .welcome-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#welcome .welcome-content h2 {
+  font-size: 40px;
 }
