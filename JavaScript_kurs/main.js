@@ -58,17 +58,17 @@ if(lowerColorName == "grün" ) {
 
 function main(){
   
-  var input = document.getElementById("inputColor");
-  var color = input.value;
-  var lowerColorName = color.toLowerCase();
-
-  if(lowerColorName == "grün"){
-    alert("Du darfst fahren");
-  } else if(lowerColorName == "orange"){
-    alert("Du darfs anfahren oder musst bremsen");
-  } else if(lowerColorName =="rot"){
-        alert("Du musst anhalten");
+  var input = document.getElementById("age");
+  var age = input.value;
+  
+  // < & Jahre oder > 60 Jahre -> Sonderpreis 4 €
+  
+  if(age < 0 || age > 100){
+    alert("Bitte trage ein gültiges Alter ein");
+  } else if(age <= 6 || age >= 60) {
+    alert("Preis beträgt 4 €");
   } else {
-    alert("Keine gültige Ampel-Farbe eingetragen");
-  }console.log("Funktion wurde aufgerufen")
-  }
+    alert("Preis beträgt 6,50 €");
+  }}
+
+  // Alle anderen -> 6 €
