@@ -14,26 +14,26 @@ if(age >= 18) {
 
  
 
-/* function main(){
+function main(){
   
   var input = document.getElementById("inputColor");
   var color = input.value;
- var lowerColorName = color.toLowerCase();
+  var lowerColorName = color.toLowerCase();
 
- if(lowerColorName == "grün"){
-  alert("Du darfst fahren");
- } else if(lowerColorName == "orange"){
-  alert("Du darfs anfahren oder musst bremsen");
-} else if(lowerColorName =="rot"){
-      alert("Du musst anhalten");
-} else {
-  alert("Keine gültige Ampel-Farbe eingetragen");
-}console.log("Funktion wurde aufgerufen")
-}*/
+  if(lowerColorName == "grün"){
+    alert("Du darfst fahren");
+  } else if(lowerColorName == "orange"){
+    alert("Du darfs anfahren oder musst bremsen");
+  } else if(lowerColorName =="rot"){
+        alert("Du musst anhalten");
+  } else {
+    alert("Keine gültige Ampel-Farbe eingetragen");
+  }console.log("Funktion wurde aufgerufen")
+  }
 
  // If Statements
 
-var color = prompt("Trage eime Ampel-Farbe ein:");
+/*var color = prompt("Trage eime Ampel-Farbe ein:");
 var lowerColorName = color.toLowerCase();
 
 // Wenn grün -> fahren
@@ -44,7 +44,7 @@ if(lowerColorName == "grün" ) {
 } else if (lowerColorName == "rot") {
   alert("Du musst bremsen");
 } else { alert("Keine gültige Farbe eingetragen");
-}
+} */
 
 
 
