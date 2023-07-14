@@ -14,8 +14,6 @@ if(age >= 18) {
 
  
 
-*NOTE - IF Else Code
-
 /* function main(){
   
   var input = document.getElementById("inputColor");
@@ -35,6 +33,25 @@ if(age >= 18) {
 
  // If Statements
 
-var age = prompt("Trage dein Alter ein:");
+var color = prompt("Trage eime Ampel-Farbe ein:");
+var lowerColorName = color.toLowerCase();
+
+// Wenn grün -> fahren
+if(lowerColorName == "grün" ) {
+  alert("Du darfst fahren");
+} else if (lowerColorName == "orange") {
+  alert("Du darfst anfahren oder du musst bremsen");
+} else if (lowerColorName == "rot") {
+  alert("Du musst bremsen");
+} else { alert("Keine gültige Farbe eingetragen");
+}
+
+
+
+// Wenn orange -> anfahren/bremsen
+
+// Wenn rot -> anhalten
+
+// Fehlermeldung zurückgeben bei falscher Farbe
  
 
