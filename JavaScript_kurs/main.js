@@ -14,7 +14,9 @@ if(age >= 18) {
 
  
 
-function main(){
+*NOTE - IF Else Code
+
+/* function main(){
   
   var input = document.getElementById("inputColor");
   var color = input.value;
@@ -29,7 +31,10 @@ function main(){
 } else {
   alert("Keine gültige Ampel-Farbe eingetragen");
 }console.log("Funktion wurde aufgerufen")
-}
+}*/
 
+ // If Statements
 
+var age = prompt("Trage dein Alter ein:");
+ 
 
