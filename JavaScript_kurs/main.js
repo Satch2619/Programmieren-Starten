@@ -56,7 +56,7 @@ if(lowerColorName == "grün" ) {
  
 // Kino Kasse
 
-function main(){
+/* function main(){
   
   var input = document.getElementById("age");
   var age = input.value;
@@ -71,4 +71,19 @@ function main(){
     alert("Preis beträgt 6,50 €");
   }}
 
-  // Alle anderen -> 6 €
+  // Alle anderen -> 6 € */
+
+  function main(){
+  
+    var input = document.getElementById("age");
+    var age = input.value;
+    
+    // < & Jahre oder > 60 Jahre -> Sonderpreis 4 €
+    
+    if(age < 0 || age > 100){
+      alert("Bitte trage ein gültiges Alter ein");
+    } else if(age <= 6 || age >= 60) {
+      alert("Preis beträgt 4 €");
+    } else {
+      alert("Preis beträgt 6,50 €");
+    }}
