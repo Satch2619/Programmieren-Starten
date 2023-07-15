@@ -74,16 +74,20 @@ if(lowerColorName == "grün" ) {
   // Alle anderen -> 6 € */
 
   function main(){
-  
-    var input = document.getElementById("age");
-    var age = input.value;
     
-    // < & Jahre oder > 60 Jahre -> Sonderpreis 4 €
+    var inputMaxSpeed = document.getElementById("maxSpeed");
+    var inputSpeed = document.getElementById("speed")
+    var inputDir = document.getElementById("dir")
     
-    if(age < 0 || age > 100){
-      alert("Bitte trage ein gültiges Alter ein");
-    } else if(age <= 6 || age >= 60) {
-      alert("Preis beträgt 4 €");
-    } else {
-      alert("Preis beträgt 6,50 €");
-    }}
+    var maxSpeed = parseInt(inputMaxSpeed.value);
+    var speed = parseInt(inputSpeed.value);
+    var isFacing = inputDir.checked;
+
+    var maxSpeedWithOffset = maxSpeed + ((maxSpeed/100)*10)
+    console.log(maxSpeedWithOffset);
+
+    if(speed > maxSpeedWithOffset && isFacing == true){
+      alert("Du wurdest geblitzt");
+    }
+
+  }
