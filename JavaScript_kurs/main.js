@@ -75,6 +75,25 @@ if(lowerColorName == "grün" ) {
 
   function main(){
     
+    var product ="Papier";
+
+    switch(product){
+
+      case "Mehl":
+        console.log("Mehl kostet 1€");
+        break;
+      case "Milch":
+        console.log("Milch kostet 1,50€");
+        break;
+        default:
+          console.log("product nicht vorhanden");
+    }
+  }
+
+    
+    
+    /*{
+    
     var inputMaxSpeed = document.getElementById("maxSpeed");
     var inputSpeed = document.getElementById("speed")
     var inputDir = document.getElementById("dir")
@@ -90,4 +109,4 @@ if(lowerColorName == "grün" ) {
       alert("Du wurdest geblitzt");
     }
 
-  }
+  }*/
