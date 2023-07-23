@@ -114,12 +114,27 @@ if(lowerColorName == "grün" ) {
   var students = [
     {"Name": "Jannick", "Matrikelnummer": 1, "NC": 2},
     {"Name": "Peter", "Matrikelnummer": 2, "NC": 1.3},
-    {"Name": "Hans", "Matrikelnummer": 3, "NC": 2.8},
-    {"Name": "Melanie", "Matrikelnummer": 4, "NC": 1.6},
+    {"Name": "Hans", "Matrikelnummer": 3, "NC": 1.8},
+    {"Name": "Melanie", "Matrikelnummer": 4, "NC": 2.6},
     {"Name": "Sara", "Matrikelnummer": 5, "NC": 2.1},
   ]
 
-  function study(){
-    
+  function calcAverageNC(){
+
+    var totalNC =0;
+
+    for (let i = 0; i < students.length; i++) {
+      
+      var student = students[i];
+      console.log(student)
+      
+
+      totalNC += student.NC;
+    }
+
+    var averageNC = totalNC / students.length;
+    console.log("NC Durschnitt: " + averageNC);
+
   }
   
+  calcAverageNC();
