@@ -111,7 +111,9 @@ if(lowerColorName == "grün" ) {
 
   }*/
 
-  var students = [
+  // Übung Studenten
+
+  /* var students = [
     
   ]
 
@@ -147,4 +149,56 @@ if(lowerColorName == "grün" ) {
     students.push(student);
     console.log(students);
 
+  }*/
+
+  // Klassen
+
+  /*funtion main(){
+
+    var student = {
+      "Name": name,
+      "Martikelnummer": id,
+      "NC": nc
+    };
+
   }
+
+
+  class Student {
+    
+    constructor(name, id, nc){
+      this.name = name;
+      this.id = id;
+      this.nc = nc;
+    }
+
+  }
+
+  var student = new Student("Satch", 1, 3.0);*/
+
+  // Methoden
+
+  class Car{
+
+    constructor(marke, baujahr, ps){
+      this.marke = marke;
+      this.baujahr = baujahr;
+      this.ps = ps;
+    }
+
+    drive(speed){
+      console.log("Fährt: " + this.marke + " " + speed);
+    }
+
+    honk(){
+      console.log("Hupt: " +  JSON.stringify(this));
+    }
+
+  }
+
+  var car = new Car("VW", 1994,132);
+  car.drive(100);
+
+  var car2 = new Car("Porsche", 2010,180);
+  car2.drive(210);
+  car2.honk();
