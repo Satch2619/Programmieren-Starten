@@ -1,3 +1,4 @@
+/*SECTION - IF Statement
 // IF Statements
 
 /*let age = prompt("Trage dein Alter ein");
@@ -13,6 +14,7 @@ if(age >= 18) {
 }*/
 
  
+/*SECTION - Funktion
 
 /*function main(){
   
@@ -30,7 +32,7 @@ if(age >= 18) {
     alert("Keine gültige Ampel-Farbe eingetragen");
   }console.log("Funktion wurde aufgerufen")
   }*/
-
+/*SECTION -  IF Statement 2
  // If Statements
 
 /*var color = prompt("Trage eime Ampel-Farbe ein:");
@@ -53,7 +55,8 @@ if(lowerColorName == "grün" ) {
 // Wenn rot -> anhalten
 
 // Fehlermeldung zurückgeben bei falscher Farbe
- 
+
+/* SECTION - Kino funktion)
 // Kino Kasse
 
 /* function main(){
@@ -71,6 +74,7 @@ if(lowerColorName == "grün" ) {
     alert("Preis beträgt 6,50 €");
   }}
 
+  
   // Alle anderen -> 6 € */
 
   /* function main(){
@@ -92,7 +96,7 @@ if(lowerColorName == "grün" ) {
 
     
     
-    /*{
+    /*SECTION getElementById{
     
     var inputMaxSpeed = document.getElementById("maxSpeed");
     var inputSpeed = document.getElementById("speed")
@@ -111,9 +115,11 @@ if(lowerColorName == "grün" ) {
 
   }*/
 
+    /*SECTION - Übung Sudenten
+
   // Übung Studenten
 
-  /* var students = [
+   var students = [
     
   ]
 
@@ -151,6 +157,7 @@ if(lowerColorName == "grün" ) {
 
   }*/
 
+  /*SECTION - Klassen
   // Klassen
 
   /*funtion main(){
@@ -176,7 +183,9 @@ if(lowerColorName == "grün" ) {
 
   var student = new Student("Satch", 1, 3.0);*/
 
-  // Methoden
+/*SECTION - Methode
+ 
+ // Methoden
 
   class Car{
 
@@ -202,3 +211,5 @@ if(lowerColorName == "grün" ) {
   var car2 = new Car("Porsche", 2010,180);
   car2.drive(210);
   car2.honk();
+
+  */
