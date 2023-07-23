@@ -112,11 +112,7 @@ if(lowerColorName == "grün" ) {
   }*/
 
   var students = [
-    {"Name": "Jannick", "Matrikelnummer": 1, "NC": 2},
-    {"Name": "Peter", "Matrikelnummer": 2, "NC": 1.3},
-    {"Name": "Hans", "Matrikelnummer": 3, "NC": 1.8},
-    {"Name": "Melanie", "Matrikelnummer": 4, "NC": 2.6},
-    {"Name": "Sara", "Matrikelnummer": 5, "NC": 2.1},
+    
   ]
 
   function calcAverageNC(){
@@ -137,4 +133,18 @@ if(lowerColorName == "grün" ) {
 
   }
   
-  calcAverageNC();
+  function addStudent(){
+    var name =document.getElementById('StudyName').value;
+    var id =parseInt(document.getElementById('StudyID').value);
+    var nc =parseFloat(document.getElementById('StudyNC').value);
+    
+    var student = {
+      "Name": name,
+      "Martikelnummer": id,
+      "NC": nc
+    };
+
+    students.push(student);
+    console.log(students);
+
+  }
