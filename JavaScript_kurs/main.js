@@ -73,7 +73,7 @@ if(lowerColorName == "grün" ) {
 
   // Alle anderen -> 6 € */
 
-  function main(){
+  /* function main(){
     
     var product ="Papier";
 
@@ -110,3 +110,16 @@ if(lowerColorName == "grün" ) {
     }
 
   }*/
+
+  var students = [
+    {"Name": "Jannick", "Matrikelnummer": 1, "NC": 2},
+    {"Name": "Peter", "Matrikelnummer": 2, "NC": 1.3},
+    {"Name": "Hans", "Matrikelnummer": 3, "NC": 2.8},
+    {"Name": "Melanie", "Matrikelnummer": 4, "NC": 1.6},
+    {"Name": "Sara", "Matrikelnummer": 5, "NC": 2.1},
+  ]
+
+  function study(){
+    
+  }
+  
