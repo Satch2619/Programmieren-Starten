@@ -206,7 +206,7 @@ link.innerText = "Click hier";
 link.href = "https://www.google.de";
 document.body.appendChild(link);*/
 
-var table = document.getElementById("table");
+/* var table = document.getElementById("table");
 var row = table.insertRow(1);
 row.insertCell(0).innerText = "Jannick";
 row.insertCell(1).innerText = "Leismann";
@@ -233,4 +233,23 @@ function remove(){
 
 function toggle(){
   table.classList.toggle("highlight");
+}*/
+
+
+//JSON
+// JavaScript Object Notation
+
+function main(){
+  var newCar = new Car("VW", 8);
+  var carAsJson = JSON.stringify(newCar);
+}
+
+
+
+class Car {
+  constructor(brand, age){
+    this.brand = brand;
+    this.age = age;
+  }
+
 }
