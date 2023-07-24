@@ -183,33 +183,21 @@ if(lowerColorName == "grün" ) {
 
   var student = new Student("Satch", 1, 3.0);*/
 
-/*SECTION - Methode
+
  
  // Methoden
 
-  class Car{
+ /*import * as vehicles from "./car.js"
 
-    constructor(marke, baujahr, ps){
-      this.marke = marke;
-      this.baujahr = baujahr;
-      this.ps = ps;
-    }
-
-    drive(speed){
-      console.log("Fährt: " + this.marke + " " + speed);
-    }
-
-    honk(){
-      console.log("Hupt: " +  JSON.stringify(this));
-    }
-
-  }
-
-  var car = new Car("VW", 1994,132);
+  var car = new vehicles.Car("VW", 1994,132);
   car.drive(100);
 
-  var car2 = new Car("Porsche", 2010,180);
+  var car2 = new vehicles.Ship("Frachter", 2010,180);
   car2.drive(210);
   car2.honk();
+*/
 
-  */
+var divEle = document.createElement("div")
+divEle.innerText = "Hello World";
+document.body.appendChild(divEle);
+
