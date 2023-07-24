@@ -221,3 +221,16 @@ row.addEventListener("click", function(){
 row.insertCell(0).innerText = "Satch";
 row.insertCell(1).innerText = "Hanau";
 });
+
+
+function add(){
+  table.classList.add("awesomeTable");
+}
+
+function remove(){
+  table.classList.remove("awesomeTable");
+}
+
+function toggle(){
+  table.classList.toggle("highlight");
+}

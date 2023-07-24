@@ -1,17 +1,40 @@
 <html>
   <body>
     <div>
-      <button onclick="main()">Überprüfen</button>
+      <button onclick="add()">Add</button>
     </div>
-    <di>
-      <table id="table">
+    <br />
+    <div>
+      <button onclick="remove()">Remove</button>
+    </div>
+    <br />
+    <div>
+      <button onclick="toggle()">Toggle</button>
+    </div>
+    <br />
+    <div>
+      <table id="table"  class="highlight">
         <tr>
           <th>Vorname</th>
           <th>Nachname</th>
         </tr>
       </table>
-    </di>
+    </div>
   </body>
 
   <script src="main.js" type="text/javascript"></script>
 </html>
+
+<style>
+  .awesomeTable {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+  }
+
+  .highlight {
+    background-color: black;
+    color: white;
+  }
+</style>
