@@ -214,3 +214,10 @@ row.insertCell(1).innerText = "Leismann";
 var row = table.insertRow(2);
 row.insertCell(0).innerText = "John";
 row.insertCell(1).innerText = "Doe";
+
+var btn = document.getElementById("test");
+row.addEventListener("click", function(){
+  var row = table.insertRow(3);
+row.insertCell(0).innerText = "Satch";
+row.insertCell(1).innerText = "Hanau";
+});
