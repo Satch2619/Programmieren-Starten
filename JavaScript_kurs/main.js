@@ -197,7 +197,20 @@ if(lowerColorName == "grün" ) {
   car2.honk();
 */
 
-var divEle = document.createElement("div")
+/*var divEle = document.createElement("div")
 divEle.innerText = "Hello World";
 document.body.appendChild(divEle);
 
+var link = document.createElement("a");
+link.innerText = "Click hier";
+link.href = "https://www.google.de";
+document.body.appendChild(link);*/
+
+var table = document.getElementById("table");
+var row = table.insertRow(1);
+row.insertCell(0).innerText = "Jannick";
+row.insertCell(1).innerText = "Leismann";
+
+var row = table.insertRow(2);
+row.insertCell(0).innerText = "John";
+row.insertCell(1).innerText = "Doe";
