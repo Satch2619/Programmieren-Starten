@@ -239,7 +239,7 @@ function toggle(){
 //JSON
 // JavaScript Object Notation
 
-function main(){
+/* function main(){
   var newCar = new Car("VW", 8);
   var carAsJson = JSON.stringify(newCar);
 }
@@ -252,4 +252,11 @@ class Car {
     this.age = age;
   }
 
+}*/
+
+function main(){
+
+  fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(Response => Response.json())
+  .then(json => console.log(json));
 }
