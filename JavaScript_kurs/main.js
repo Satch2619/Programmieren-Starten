@@ -254,9 +254,25 @@ class Car {
 
 }*/
 
-function main(){
+// Fetch
+
+/*function main(){
 
   fetch('https://jsonplaceholder.typicode.com/todos/1')
   .then(Response => Response.json())
   .then(json => console.log(json));
+}*/
+
+// Try Catch
+
+function main(){
+  
+  try{
+    console.log(age)
+  } catch(e){
+    console.log("Error abgefangen"+ e)
+  }
+  
+  console.log("Hello World")
+
 }
