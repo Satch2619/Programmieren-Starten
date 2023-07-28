@@ -265,7 +265,7 @@ class Car {
 
 // Try Catch
 
-function main(){
+/* function main(){
   
   try{
     console.log(age)
@@ -274,5 +274,82 @@ function main(){
   }
   
   console.log("Hello World")
+
+} */
+
+// Promises
+
+/*function main(){
+
+let promise = new Promise((resolve, reject) => {
+
+  let n = 70;
+
+  if(n < 100){
+    resolve("Versprechen gehalten")
+  } else {
+    reject("Versrechen nicht gehalten")
+  }
+})
+
+  promise.then((res) => {
+    console.log(res)
+  }).catch((e) => {
+    console.log("Error: " + e)
+  })
+
+}*/
+
+// Timeout & Interval
+
+/*function main(){
+
+  console.log("Die Zeit läuft")
+
+  setTimeout(() => {
+
+    console.log("3 Sekunden abgelaufen");
+  }, 3000);
+  
+}*/
+
+// Callbacks
+
+/*function main(){
+
+  frisieren(finish)
+
+}
+
+function finish(price){
+
+    console.log("final Price: " + price, "€");
+  
+}
+
+function frisieren(callback){
+
+  console.log("Hund fertig frisiert");
+  callback(10);
+
+}*/
+
+// Array filter() & map()
+
+// filter
+function main(){
+
+  let numbers = [1,5,3,29,83,52,10,8,4]
+
+  let smallNumbers = numbers.filter(n =>{
+    return n < 10
+  });
+
+  console.log(smallNumbers);
+ 
+  // map
+  let doubleNumber = numbers.map(n => n * 2);
+  console.log(doubleNumber);
+
 
 }
