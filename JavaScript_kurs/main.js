@@ -337,7 +337,7 @@ function frisieren(callback){
 // Array filter() & map()
 
 // filter
-function main(){
+/*function main(){
 
   let numbers = [1,5,3,29,83,52,10,8,4]
 
@@ -350,6 +350,30 @@ function main(){
   // map
   let doubleNumber = numbers.map(n => n * 2);
   console.log(doubleNumber);
+}*/
+
+//jquery
+
+/*$("document").ready(() => {
+  console.log("ready")
+});*/
 
 
-}
+// load
+
+/*function main(){
+
+  $('#paragraph').load("test.txt");
+
+}*/
+
+// jquery ajax
+
+/*function main(){
+
+  $.get('https://jsonplaceholder.typicode.com/todos/1', (res) => {
+      $('#paragraph').text(JSON.stringify(res));
+
+  });
+
+}*/
